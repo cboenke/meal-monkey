@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+:root {
+  --main-color: #fc6011;
+  --primary-font-color: #4a4b4d;
+  --secondary-font-color: #7c7d7e;
+  --placeholder-color: #b6b7b7;
+  --input-background-color: #f2f2f2;
+  --background-color: #fff;
 }
 
 html {
