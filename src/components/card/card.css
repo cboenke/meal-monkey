@@ -16,7 +16,7 @@
   font-weight: 700;
   font-size: 0.8em;
   text-align: center;
-  color: #4a4b4d;
+  color: var(--primary-font-color);
 }
 
 .cards-container {

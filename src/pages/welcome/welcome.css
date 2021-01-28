@@ -10,18 +10,18 @@
 .meal {
   font-size: 34px;
   font-weight: bold;
-  color: #fc6011;
+  color: var(--main-color);
 }
 
 .monkey {
   font-size: 34px;
   font-weight: bold;
-  color: #4a4b4d;
+  color: var(--primary-font-color);
 }
 
 .delivery {
   font-size: 10px;
-  color: #4a4b4d;
+  color: var(--primary-font-color);
   align-items: center;
 }
 

@@ -2,7 +2,7 @@
   border-radius: 20px;
   font-size: 1 rem;
   color: white;
-  background: #fc6011;
+  background: var(--main-color);
   border: none;
   padding: 10px 20px;
 }
@@ -10,8 +10,8 @@
 .btn-border {
   border-radius: 20px;
   font-size: 1 rem;
-  background: #fff;
-  color: #fc6011;
-  border: 1px solid #fc6011;
+  background: var(--background-color);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
   padding: 10px 20px;
 }
