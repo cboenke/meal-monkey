@@ -14,6 +14,8 @@ export function createRegisterForm() {
   const button = document.createElement("button");
   button.innerText = "Register";
 
+  button.className = "btn-filled";
+
   function register() {
     alert("Successfully registered!");
   }
@@ -23,7 +25,15 @@ export function createRegisterForm() {
   const title = document.createElement("h2");
   title.innerText = "Reset Password";
 
-  form.append(title, button);
+  const infoText = document.createElement("p");
+  infoText.innerText =
+    "Please enter your email to receive a link to create a new password via email.";
+
+  const input = document.createElement("input");
+  input.type = "text";
+  input.placeholder = "email";
+
+  form.append(title, infoText, input, button);
 
   return form;
 }

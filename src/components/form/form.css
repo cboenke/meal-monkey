@@ -1,6 +1,26 @@
 .form {
+  display: grid;
+  grid-row-gap: 1em;
+  text-align: center;
 }
 
-.btn-submit {
-  background-color: var(--main-color);
+.form .input {
+  margin-top: 2em;
+}
+
+.digits {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-column-gap: 1.2rem;
+}
+
+.digits input {
+  padding: 10px;
+  width: 2.8rem;
+  border-radius: 10px;
+}
+
+form_hint a {
+  margin-left: 0.5em;
 }
