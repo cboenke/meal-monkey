@@ -8,14 +8,14 @@
   margin-top: 2em;
 }
 
-.digits {
+.form_otp {
   display: grid;
   grid-auto-flow: column;
   justify-content: center;
   grid-column-gap: 1.2rem;
 }
 
-.digits input {
+.form_otp input {
   padding: 10px;
   width: 2.8rem;
   border-radius: 10px;
