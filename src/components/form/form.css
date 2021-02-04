@@ -24,3 +24,8 @@
 .form_hint a {
   margin-left: 0.5em;
 }
+
+.message {
+  color: var(--main-color);
+  height: 1em;
+}
